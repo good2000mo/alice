@@ -1,3 +1,1738 @@
-1111
-22222
-33333
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<node key="2bf88f8f" type="org.lgna.project.ast.NamedUserType" uuid="46eeea43-c911-4a7a-b9ca-7554ffd4e3d3" version="3.1">
+	<property name="name">
+		<value type="java.lang.String">Program</value>
+	</property>
+	<property name="_package">
+		<value isNull="true"/>
+	</property>
+	<property name="constructors">
+		<collection type="java.util.ArrayList">
+			<node key="783600e" type="org.lgna.project.ast.NamedUserConstructor" uuid="8e732de8-c2e1-4a0d-a353-41ab8a1ba90a">
+				<property name="requiredParameters">
+					<collection type="java.util.ArrayList"/>
+				</property>
+				<property name="accessLevel">
+					<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+				</property>
+				<property name="body">
+					<node type="org.lgna.project.ast.ConstructorBlockStatement" uuid="93970488-13e9-4fb0-a9aa-aef29d47ed94">
+						<property name="constructorInvocationStatement">
+							<node type="org.lgna.project.ast.SuperConstructorInvocationStatement" uuid="85fd342b-778b-45f0-a4d4-851b27056867">
+								<property name="constructor">
+									<node key="68f3bd64" type="org.lgna.project.ast.JavaConstructor" uuid="695cace3-b993-4349-b6c8-0cef33d2f2c5">
+										<constructor isVarArgs="false">
+											<declaringClass name="org.lgna.story.SProgram"/>
+											<parameters/>
+										</constructor>
+									</node>
+								</property>
+								<property name="requiredArguments">
+									<collection type="java.util.ArrayList"/>
+								</property>
+								<property name="variableArguments">
+									<collection type="java.util.ArrayList"/>
+								</property>
+								<property name="keyedArguments">
+									<collection type="java.util.ArrayList"/>
+								</property>
+								<property name="isEnabled">
+									<value type="java.lang.Boolean">true</value>
+								</property>
+							</node>
+						</property>
+						<property name="statements">
+							<collection type="java.util.ArrayList"/>
+						</property>
+						<property name="isEnabled">
+							<value type="java.lang.Boolean">true</value>
+						</property>
+					</node>
+				</property>
+				<property name="managementLevel">
+					<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+				</property>
+				<property name="isSignatureLocked">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isDeletionAllowed">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+			</node>
+		</collection>
+	</property>
+	<property name="accessLevel">
+		<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+	</property>
+	<property name="finalAbstractOrNeither">
+		<value type="org.lgna.project.ast.TypeModifierFinalAbstractOrNeither">NEITHER</value>
+	</property>
+	<property name="isStrictFloatingPoint">
+		<value type="java.lang.Boolean">false</value>
+	</property>
+	<property name="superType">
+		<node key="25c412a5" type="org.lgna.project.ast.JavaType" uuid="63335b2e-b374-4124-b299-4475200fecec">
+			<type name="org.lgna.story.SProgram"/>
+		</node>
+	</property>
+	<property name="methods">
+		<collection type="java.util.ArrayList">
+			<node key="64b4a6dc" type="org.lgna.project.ast.UserMethod" uuid="652d9a5c-7b5d-446d-aa8a-16d68eb4cfcf">
+				<property name="isStatic">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isAbstract">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isFinal">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="name">
+					<value type="java.lang.String">getMyScene</value>
+				</property>
+				<property name="accessLevel">
+					<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+				</property>
+				<property name="isSynchronized">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isStrictFloatingPoint">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="returnType">
+					<node key="5cc715e5" type="org.lgna.project.ast.NamedUserType" uuid="eb4e8be4-86ae-4d59-b054-59f50cf32efb">
+						<property name="name">
+							<value type="java.lang.String">Scene</value>
+						</property>
+						<property name="_package">
+							<value isNull="true"/>
+						</property>
+						<property name="constructors">
+							<collection type="java.util.ArrayList">
+								<node key="126e9cf9" type="org.lgna.project.ast.NamedUserConstructor" uuid="8dcd9c8b-966d-4039-a4ee-97eb2c320ced">
+									<property name="requiredParameters">
+										<collection type="java.util.ArrayList"/>
+									</property>
+									<property name="accessLevel">
+										<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+									</property>
+									<property name="body">
+										<node type="org.lgna.project.ast.ConstructorBlockStatement" uuid="a688e84f-cc8e-4a6b-9d10-490540294599">
+											<property name="constructorInvocationStatement">
+												<node type="org.lgna.project.ast.SuperConstructorInvocationStatement" uuid="433a599f-f9fc-49dd-b583-b57a5398bbfa">
+													<property name="constructor">
+														<node key="1526c3d4" type="org.lgna.project.ast.JavaConstructor" uuid="cad7f1fc-de11-4d57-8d77-9df0b01e34b3">
+															<constructor isVarArgs="false">
+																<declaringClass name="org.lgna.story.SScene"/>
+																<parameters/>
+															</constructor>
+														</node>
+													</property>
+													<property name="requiredArguments">
+														<collection type="java.util.ArrayList"/>
+													</property>
+													<property name="variableArguments">
+														<collection type="java.util.ArrayList"/>
+													</property>
+													<property name="keyedArguments">
+														<collection type="java.util.ArrayList"/>
+													</property>
+													<property name="isEnabled">
+														<value type="java.lang.Boolean">true</value>
+													</property>
+												</node>
+											</property>
+											<property name="statements">
+												<collection type="java.util.ArrayList"/>
+											</property>
+											<property name="isEnabled">
+												<value type="java.lang.Boolean">true</value>
+											</property>
+										</node>
+									</property>
+									<property name="managementLevel">
+										<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+									</property>
+									<property name="isSignatureLocked">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isDeletionAllowed">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+								</node>
+							</collection>
+						</property>
+						<property name="accessLevel">
+							<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+						</property>
+						<property name="finalAbstractOrNeither">
+							<value type="org.lgna.project.ast.TypeModifierFinalAbstractOrNeither">NEITHER</value>
+						</property>
+						<property name="isStrictFloatingPoint">
+							<value type="java.lang.Boolean">false</value>
+						</property>
+						<property name="superType">
+							<node key="48765135" type="org.lgna.project.ast.JavaType" uuid="89eb4d74-c819-4776-a2e6-d509b5061e34">
+								<type name="org.lgna.story.SScene"/>
+							</node>
+						</property>
+						<property name="methods">
+							<collection type="java.util.ArrayList">
+								<node key="24029e25" type="org.lgna.project.ast.UserMethod" uuid="90a9ace5-b271-40ce-9f66-7b3db50e88af">
+									<property name="isStatic">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isAbstract">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isFinal">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="name">
+										<value type="java.lang.String">performCustomSetup</value>
+									</property>
+									<property name="accessLevel">
+										<value type="org.lgna.project.ast.AccessLevel">PRIVATE</value>
+									</property>
+									<property name="isSynchronized">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isStrictFloatingPoint">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="returnType">
+										<node key="3c4096e6" type="org.lgna.project.ast.JavaType" uuid="a8994677-614a-4d9d-bf34-8fa407b52690">
+											<type name="void"/>
+										</node>
+									</property>
+									<property name="requiredParameters">
+										<collection type="java.util.ArrayList"/>
+									</property>
+									<property name="body">
+										<node type="org.lgna.project.ast.BlockStatement" uuid="678947df-4f77-46a0-be1e-eb722c3f49cb">
+											<property name="statements">
+												<collection type="java.util.ArrayList"/>
+											</property>
+											<property name="isEnabled">
+												<value type="java.lang.Boolean">true</value>
+											</property>
+										</node>
+									</property>
+									<property name="managementLevel">
+										<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+									</property>
+									<property name="isSignatureLocked">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isDeletionAllowed">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+								<node key="5f5db8f" type="org.lgna.project.ast.UserMethod" uuid="cce53ccd-65c0-4fd0-920f-72cc1f963fcd">
+									<property name="isStatic">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isAbstract">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isFinal">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="name">
+										<value type="java.lang.String">performGeneratedSetUp</value>
+									</property>
+									<property name="accessLevel">
+										<value type="org.lgna.project.ast.AccessLevel">PRIVATE</value>
+									</property>
+									<property name="isSynchronized">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isStrictFloatingPoint">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="returnType">
+										<node key="3c4096e6"/>
+									</property>
+									<property name="requiredParameters">
+										<collection type="java.util.ArrayList"/>
+									</property>
+									<property name="body">
+										<node type="org.lgna.project.ast.BlockStatement" uuid="0fab179c-1815-4101-8f22-5edd9d3cfd8d">
+											<property name="statements">
+												<collection type="java.util.ArrayList">
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="affecda2-f600-4cdc-8231-2174f19df987">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="43e83b38-ebc1-4ea7-8517-3336fc773a4d">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.FieldAccess" uuid="c3373f48-331b-4ad4-a37c-36c3a1029e8f">
+																		<property name="expression">
+																			<node type="org.lgna.project.ast.ThisExpression" uuid="831bb8a4-cea8-4b7c-ae55-ea7e59367ed5"/>
+																		</property>
+																		<property name="field">
+																			<node key="43ea7051" type="org.lgna.project.ast.UserField" uuid="a52059bb-4c29-49ac-b695-590fe0bed940">
+																				<property name="name">
+																					<value type="java.lang.String">ground</value>
+																				</property>
+																				<property name="valueType">
+																					<node key="ceacfc3" type="org.lgna.project.ast.JavaType" uuid="0ba31807-9a81-4340-840c-599e53a26156">
+																						<type name="org.lgna.story.SGround"/>
+																					</node>
+																				</property>
+																				<property name="accessLevel">
+																					<value type="org.lgna.project.ast.AccessLevel">PRIVATE</value>
+																				</property>
+																				<property name="finalVolatileOrNeither">
+																					<value type="org.lgna.project.ast.FieldModifierFinalVolatileOrNeither">FINAL</value>
+																				</property>
+																				<property name="isStatic">
+																					<value type="java.lang.Boolean">false</value>
+																				</property>
+																				<property name="isTransient">
+																					<value type="java.lang.Boolean">false</value>
+																				</property>
+																				<property name="managementLevel">
+																					<value type="org.lgna.project.ast.ManagementLevel">MANAGED</value>
+																				</property>
+																				<property name="isDeletionAllowed">
+																					<value type="java.lang.Boolean">true</value>
+																				</property>
+																				<property name="initializer">
+																					<node type="org.lgna.project.ast.InstanceCreation" uuid="7fdfcce1-cb7c-43d6-8f13-b56908e0b6d6">
+																						<property name="constructor">
+																							<node key="3f91a4ec" type="org.lgna.project.ast.JavaConstructor" uuid="e105de09-1a21-4367-ae56-333252f614d6">
+																								<constructor isVarArgs="false">
+																									<declaringClass name="org.lgna.story.SGround"/>
+																									<parameters/>
+																								</constructor>
+																							</node>
+																						</property>
+																						<property name="requiredArguments">
+																							<collection type="java.util.ArrayList"/>
+																						</property>
+																						<property name="variableArguments">
+																							<collection type="java.util.ArrayList"/>
+																						</property>
+																						<property name="keyedArguments">
+																							<collection type="java.util.ArrayList"/>
+																						</property>
+																					</node>
+																				</property>
+																			</node>
+																		</property>
+																	</node>
+																</property>
+																<property name="method">
+																	<node key="72e2a28e" type="org.lgna.project.ast.JavaMethod" uuid="9e02ec79-691e-454e-9111-f980c4e65aff">
+																		<method isVarArgs="false" name="setVehicle">
+																			<declaringClass name="org.lgna.story.SGround"/>
+																			<parameters>
+																				<type name="org.lgna.story.SThing"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="a2c71e2e-f319-4007-b21e-0566a6e04892">
+																			<property name="parameter">
+																				<node key="6bad13ee" type="org.lgna.project.ast.JavaMethodParameter" uuid="814d30ed-c849-4abd-a80b-06938b3b53cf">
+																					<node key="72e2a28e"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.ThisExpression" uuid="8372f338-c88d-4882-ba2e-5627238c1bea"/>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="46453536-3594-46cb-a86f-c7c2c237af1a">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="8565faa9-8a62-4f63-b725-660419d013d3">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.FieldAccess" uuid="01a265a2-f19b-49a7-96dc-436a277b1eda">
+																		<property name="expression">
+																			<node type="org.lgna.project.ast.ThisExpression" uuid="e4ccc4a2-e036-4fec-9f93-adae55939bc1"/>
+																		</property>
+																		<property name="field">
+																			<node key="627b987d" type="org.lgna.project.ast.UserField" uuid="27210134-0165-4c8b-a83c-cf224db75873">
+																				<property name="name">
+																					<value type="java.lang.String">camera</value>
+																				</property>
+																				<property name="valueType">
+																					<node key="3e55155c" type="org.lgna.project.ast.JavaType" uuid="9567a172-8f04-4352-bf65-bac13f2b1311">
+																						<type name="org.lgna.story.SCamera"/>
+																					</node>
+																				</property>
+																				<property name="accessLevel">
+																					<value type="org.lgna.project.ast.AccessLevel">PRIVATE</value>
+																				</property>
+																				<property name="finalVolatileOrNeither">
+																					<value type="org.lgna.project.ast.FieldModifierFinalVolatileOrNeither">FINAL</value>
+																				</property>
+																				<property name="isStatic">
+																					<value type="java.lang.Boolean">false</value>
+																				</property>
+																				<property name="isTransient">
+																					<value type="java.lang.Boolean">false</value>
+																				</property>
+																				<property name="managementLevel">
+																					<value type="org.lgna.project.ast.ManagementLevel">MANAGED</value>
+																				</property>
+																				<property name="isDeletionAllowed">
+																					<value type="java.lang.Boolean">false</value>
+																				</property>
+																				<property name="initializer">
+																					<node type="org.lgna.project.ast.InstanceCreation" uuid="2a67e6bc-cdae-4e7b-9822-ccf1c709c427">
+																						<property name="constructor">
+																							<node key="c5926b9" type="org.lgna.project.ast.JavaConstructor" uuid="770c977d-f6af-41c5-9b8a-a0a228101ee4">
+																								<constructor isVarArgs="false">
+																									<declaringClass name="org.lgna.story.SCamera"/>
+																									<parameters/>
+																								</constructor>
+																							</node>
+																						</property>
+																						<property name="requiredArguments">
+																							<collection type="java.util.ArrayList"/>
+																						</property>
+																						<property name="variableArguments">
+																							<collection type="java.util.ArrayList"/>
+																						</property>
+																						<property name="keyedArguments">
+																							<collection type="java.util.ArrayList"/>
+																						</property>
+																					</node>
+																				</property>
+																			</node>
+																		</property>
+																	</node>
+																</property>
+																<property name="method">
+																	<node key="30fd4204" type="org.lgna.project.ast.JavaMethod" uuid="c1efbc9f-17a1-4de5-be48-41f16613139c">
+																		<method isVarArgs="false" name="setVehicle">
+																			<declaringClass name="org.lgna.story.SCamera"/>
+																			<parameters>
+																				<type name="org.lgna.story.SThing"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="d810c789-d720-4fb8-bf1d-1b4f50e62b4a">
+																			<property name="parameter">
+																				<node key="7529b3fd" type="org.lgna.project.ast.JavaMethodParameter" uuid="ecf52f67-3440-4806-8cd7-4e05af4ab423">
+																					<node key="30fd4204"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.ThisExpression" uuid="8ffb24fa-b8e0-4a3f-bc6d-5dc27f672e01"/>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="21e8f51c-3f7e-4358-aed5-ac5e16b6f846">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="becbea1f-366b-4ee6-b69c-ebceb442eed1">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.FieldAccess" uuid="71dcf083-8d93-484e-bf99-d8be82e8c6e7">
+																		<property name="expression">
+																			<node type="org.lgna.project.ast.ThisExpression" uuid="a84d8730-0add-4a69-bbb1-2f3c35fee166"/>
+																		</property>
+																		<property name="field">
+																			<node key="627b987d"/>
+																		</property>
+																	</node>
+																</property>
+																<property name="method">
+																	<node key="96f753e" type="org.lgna.project.ast.JavaMethod" uuid="d94a3955-8127-4775-b62a-0e7fb5429841">
+																		<method isVarArgs="true" name="setOrientationRelativeToVehicle">
+																			<declaringClass name="org.lgna.story.STurnable"/>
+																			<parameters>
+																				<type name="org.lgna.story.Orientation"/>
+																				<type name="[Lorg.lgna.story.SetOrientationRelativeToVehicle$Detail;"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="1f0785da-979e-4052-b6bc-f2fde2040a29">
+																			<property name="parameter">
+																				<node key="58f24b6" type="org.lgna.project.ast.JavaMethodParameter" uuid="e889b5c3-95aa-472b-81ef-81c183175c90">
+																					<node key="96f753e"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.InstanceCreation" uuid="73f8addb-2eee-4946-af9a-2645933d1eeb">
+																					<property name="constructor">
+																						<node key="3af1fdcd" type="org.lgna.project.ast.JavaConstructor" uuid="128fce66-adac-43ee-b20c-34a93ccdde62">
+																							<constructor isVarArgs="false">
+																								<declaringClass name="org.lgna.story.Orientation"/>
+																								<parameters>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																								</parameters>
+																							</constructor>
+																						</node>
+																					</property>
+																					<property name="requiredArguments">
+																						<collection type="java.util.ArrayList">
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="e1f2c8f7-738f-46d6-bf33-f5facd167444">
+																								<property name="parameter">
+																									<node key="526f476f" type="org.lgna.project.ast.JavaConstructorParameter" uuid="2483ae74-e109-4b11-a07b-dffe89441761">
+																										<node key="3af1fdcd"/>
+																										<index>0</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="49a7a9d1-8d4a-4de3-89be-b89917b03323">
+																										<property name="value">
+																											<value type="java.lang.Double">0.0</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="f5bf4cce-fa1b-46fb-ba22-106456f97505">
+																								<property name="parameter">
+																									<node key="4a8fa358" type="org.lgna.project.ast.JavaConstructorParameter" uuid="c5ba7ba3-24f1-4b2f-84f4-434ff216fdb1">
+																										<node key="3af1fdcd"/>
+																										<index>1</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="6c56171c-7b73-43b9-8c47-1a4aab3b3269">
+																										<property name="value">
+																											<value type="java.lang.Double">0.995185</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="b4dc3d33-df48-4c38-9c4e-531c0c7a135f">
+																								<property name="parameter">
+																									<node key="31bf4e25" type="org.lgna.project.ast.JavaConstructorParameter" uuid="93180627-5c94-4500-bea0-5eec1533494b">
+																										<node key="3af1fdcd"/>
+																										<index>2</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="daae08b5-8d18-47a4-87e6-2e02685d63cc">
+																										<property name="value">
+																											<value type="java.lang.Double">0.0980171</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="98013975-8729-459b-bf13-266a355e6f4d">
+																								<property name="parameter">
+																									<node key="15b3f6a8" type="org.lgna.project.ast.JavaConstructorParameter" uuid="5208bf42-fbd3-4a5d-b95d-50a0a582d781">
+																										<node key="3af1fdcd"/>
+																										<index>3</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="0fe6fef7-e3fe-43b9-a295-ce82cf2bbb85">
+																										<property name="value">
+																											<value type="java.lang.Double">6.12323E-17</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																						</collection>
+																					</property>
+																					<property name="variableArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																					<property name="keyedArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																				</node>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="0c9e211a-b13c-4fc7-a54e-45f409432737">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="c453fe76-881d-4de6-906c-02eb61c743f0">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.FieldAccess" uuid="8322aa89-94cc-4d03-a9bf-d417796d3c02">
+																		<property name="expression">
+																			<node type="org.lgna.project.ast.ThisExpression" uuid="af2746d1-b98f-4c55-a4eb-f47fbaf89f3a"/>
+																		</property>
+																		<property name="field">
+																			<node key="627b987d"/>
+																		</property>
+																	</node>
+																</property>
+																<property name="method">
+																	<node key="61544abc" type="org.lgna.project.ast.JavaMethod" uuid="8df649f7-1533-4d40-a2f3-cfbf23024b37">
+																		<method isVarArgs="true" name="setPositionRelativeToVehicle">
+																			<declaringClass name="org.lgna.story.SMovableTurnable"/>
+																			<parameters>
+																				<type name="org.lgna.story.Position"/>
+																				<type name="[Lorg.lgna.story.SetPositionRelativeToVehicle$Detail;"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="5e0ae416-3c3d-4dd8-84e0-15fce7848491">
+																			<property name="parameter">
+																				<node key="7f3e6211" type="org.lgna.project.ast.JavaMethodParameter" uuid="a4909703-7139-4e75-8865-077aeaefc514">
+																					<node key="61544abc"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.InstanceCreation" uuid="1ad606f0-ab15-405b-a34f-1d8f62c313da">
+																					<property name="constructor">
+																						<node key="6e4ef27" type="org.lgna.project.ast.JavaConstructor" uuid="83640b11-80e5-4e88-aa87-8fb19f27836b">
+																							<constructor isVarArgs="false">
+																								<declaringClass name="org.lgna.story.Position"/>
+																								<parameters>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																								</parameters>
+																							</constructor>
+																						</node>
+																					</property>
+																					<property name="requiredArguments">
+																						<collection type="java.util.ArrayList">
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="e297e063-1f2d-45bc-ba0c-d2c4575974a1">
+																								<property name="parameter">
+																									<node key="37362188" type="org.lgna.project.ast.JavaConstructorParameter" uuid="a2b8a5fd-0042-407c-ad7c-9a7fac2ed76d">
+																										<node key="6e4ef27"/>
+																										<index>0</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="c35f4533-12dd-4a30-9b22-b0bb5f509d28">
+																										<property name="value">
+																											<value type="java.lang.Double">9.61E-16</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="d9f1ee60-882c-4e48-ad60-987cb6c0350b">
+																								<property name="parameter">
+																									<node key="4d599f60" type="org.lgna.project.ast.JavaConstructorParameter" uuid="24b5abfe-cb7d-4274-b712-cde35d0b4a2b">
+																										<node key="6e4ef27"/>
+																										<index>1</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="fbdf5a11-ec83-4069-8bef-2ecbd7b378b8">
+																										<property name="value">
+																											<value type="java.lang.Double">1.56</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="b13d4f98-6d1b-487a-b28f-0284ba374683">
+																								<property name="parameter">
+																									<node key="701ece7d" type="org.lgna.project.ast.JavaConstructorParameter" uuid="969a189f-be7e-4f5a-9113-7ad7826ae47a">
+																										<node key="6e4ef27"/>
+																										<index>2</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="66dfd03d-cca1-4e35-ae09-6683183d07cb">
+																										<property name="value">
+																											<value type="java.lang.Double">-7.85</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																						</collection>
+																					</property>
+																					<property name="variableArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																					<property name="keyedArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																				</node>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="f1e13cda-58e8-42bf-8b00-fa6577d01670">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="db6a8a65-7422-451a-93d8-50ce37ffd7cf">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.ThisExpression" uuid="a4763c4e-c092-4ce4-8f01-05f218cd24e8"/>
+																</property>
+																<property name="method">
+																	<node key="6ae920b5" type="org.lgna.project.ast.JavaMethod" uuid="50786abf-4e14-4e45-aec9-68ef3ab69431">
+																		<method isVarArgs="true" name="setAtmosphereColor">
+																			<declaringClass name="org.lgna.story.SScene"/>
+																			<parameters>
+																				<type name="org.lgna.story.Color"/>
+																				<type name="[Lorg.lgna.story.SetAtmosphereColor$Detail;"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="36af3229-baed-4241-a3f6-f487138fe58b">
+																			<property name="parameter">
+																				<node key="2c3edf79" type="org.lgna.project.ast.JavaMethodParameter" uuid="5a7adcae-8893-459e-b0ab-962d7c694baa">
+																					<node key="6ae920b5"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.InstanceCreation" uuid="9582ec59-f340-4f60-b180-1f1fe05503f2">
+																					<property name="constructor">
+																						<node key="4ac9b455" type="org.lgna.project.ast.JavaConstructor" uuid="4ac055ae-4b8f-420d-bb99-38b7c9197a0f">
+																							<constructor isVarArgs="false">
+																								<declaringClass name="org.lgna.story.Color"/>
+																								<parameters>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																									<type name="java.lang.Number"/>
+																								</parameters>
+																							</constructor>
+																						</node>
+																					</property>
+																					<property name="requiredArguments">
+																						<collection type="java.util.ArrayList">
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="15513a99-b804-4501-9520-2fe043e355d3">
+																								<property name="parameter">
+																									<node key="33a26839" type="org.lgna.project.ast.JavaConstructorParameter" uuid="06883e46-54f5-4e3b-a5a9-956e037f7983">
+																										<node key="4ac9b455"/>
+																										<index>0</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="ae0a52cf-182f-472c-ba57-03cc54fbb852">
+																										<property name="value">
+																											<value type="java.lang.Double">0.588</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="a340ef78-d6bb-46f8-873a-957a0d49c83f">
+																								<property name="parameter">
+																									<node key="6a738a66" type="org.lgna.project.ast.JavaConstructorParameter" uuid="f8a4ea4e-fd12-482c-84ec-a90cb81d98d9">
+																										<node key="4ac9b455"/>
+																										<index>1</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="e6ef5541-206e-472f-98e8-62b36b9a5600">
+																										<property name="value">
+																											<value type="java.lang.Double">0.886</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																							<node type="org.lgna.project.ast.SimpleArgument" uuid="d6cf1382-0143-45f5-8591-6459d0077d36">
+																								<property name="parameter">
+																									<node key="5c464132" type="org.lgna.project.ast.JavaConstructorParameter" uuid="9e786044-6b6f-4e94-8c42-795a82ce5d48">
+																										<node key="4ac9b455"/>
+																										<index>2</index>
+																									</node>
+																								</property>
+																								<property name="expression">
+																									<node type="org.lgna.project.ast.DoubleLiteral" uuid="b4bd527c-c25a-43e7-96fd-d7b8e133bcfa">
+																										<property name="value">
+																											<value type="java.lang.Double">0.988</value>
+																										</property>
+																									</node>
+																								</property>
+																							</node>
+																						</collection>
+																					</property>
+																					<property name="variableArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																					<property name="keyedArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																				</node>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="3b76d5a2-b691-444d-a369-de549ca19c5b">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="cb30a394-c3c0-4ba9-ad6f-0810e0bb1743">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.FieldAccess" uuid="0e0cc029-6cb3-4d1c-9cd9-7ce747ff8a5b">
+																		<property name="expression">
+																			<node type="org.lgna.project.ast.ThisExpression" uuid="9bf5721a-4cda-4a0f-8014-b13872df6600"/>
+																		</property>
+																		<property name="field">
+																			<node key="43ea7051"/>
+																		</property>
+																	</node>
+																</property>
+																<property name="method">
+																	<node key="7dc7d255" type="org.lgna.project.ast.JavaMethod" uuid="9a72c592-fdb3-4abf-b6c3-468d867801f1">
+																		<method isVarArgs="true" name="setPaint">
+																			<declaringClass name="org.lgna.story.SGround"/>
+																			<parameters>
+																				<type name="org.lgna.story.Paint"/>
+																				<type name="[Lorg.lgna.story.SetPaint$Detail;"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="af3d07b8-b917-4cdd-8001-4615af312315">
+																			<property name="parameter">
+																				<node key="625dc24e" type="org.lgna.project.ast.JavaMethodParameter" uuid="5555eadf-fe48-4551-9037-55b47c1390c5">
+																					<node key="7dc7d255"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.FieldAccess" uuid="9d5ea6cd-2e07-4531-9611-ba34da5bf2c1">
+																					<property name="expression">
+																						<node type="org.lgna.project.ast.TypeExpression" uuid="7f34ee5a-c1e7-4fb6-8cec-a5eac2eee04f">
+																							<property name="value">
+																								<node key="42c126c5" type="org.lgna.project.ast.JavaType" uuid="0dd30859-0e41-443f-a7aa-e89a6150ebc8">
+																									<type name="org.lgna.story.SGround$SurfaceAppearance"/>
+																								</node>
+																							</property>
+																						</node>
+																					</property>
+																					<property name="field">
+																						<node key="16d871c0" type="org.lgna.project.ast.JavaField" uuid="23195158-9244-4604-95f4-1abe0a3e66a3">
+																							<field name="GRASS">
+																								<declaringClass name="org.lgna.story.SGround$SurfaceAppearance"/>
+																							</field>
+																						</node>
+																					</property>
+																				</node>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+												</collection>
+											</property>
+											<property name="isEnabled">
+												<value type="java.lang.Boolean">true</value>
+											</property>
+										</node>
+									</property>
+									<property name="managementLevel">
+										<value type="org.lgna.project.ast.ManagementLevel">MANAGED</value>
+									</property>
+									<property name="isSignatureLocked">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isDeletionAllowed">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+								<node key="2509e05b" type="org.lgna.project.ast.UserMethod" uuid="ee815c71-0a69-41ed-99d9-ffd0783f3b6b">
+									<property name="isStatic">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isAbstract">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isFinal">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="name">
+										<value type="java.lang.String">initializeEventListeners</value>
+									</property>
+									<property name="accessLevel">
+										<value type="org.lgna.project.ast.AccessLevel">PRIVATE</value>
+									</property>
+									<property name="isSynchronized">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isStrictFloatingPoint">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="returnType">
+										<node key="3c4096e6"/>
+									</property>
+									<property name="requiredParameters">
+										<collection type="java.util.ArrayList"/>
+									</property>
+									<property name="body">
+										<node type="org.lgna.project.ast.BlockStatement" uuid="2eee96da-f142-4fe0-bc38-61eeb86dbbc7">
+											<property name="statements">
+												<collection type="java.util.ArrayList">
+													<node type="org.lgna.project.ast.ExpressionStatement" uuid="0dc76980-12d5-453a-9804-f580a48e4fe3">
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="b76c8625-2edc-4433-be76-a5f5e334f239">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.ThisExpression" uuid="c6fc52cb-b5c7-43f1-943a-6ef189cad450"/>
+																</property>
+																<property name="method">
+																	<node key="f8b9d48" type="org.lgna.project.ast.JavaMethod" uuid="7d9204af-ec81-4974-b790-67102780b9ea">
+																		<method isVarArgs="true" name="addSceneActivationListener">
+																			<declaringClass name="org.lgna.story.SScene"/>
+																			<parameters>
+																				<type name="org.lgna.story.event.SceneActivationListener"/>
+																				<type name="[Lorg.lgna.story.AddSceneActivationListener$Detail;"/>
+																			</parameters>
+																		</method>
+																	</node>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.SimpleArgument" uuid="e2fe21e5-b99a-43f1-8d54-a4cc3a3ad1b6">
+																			<property name="parameter">
+																				<node key="404cd904" type="org.lgna.project.ast.JavaMethodParameter" uuid="2a31e34a-b108-4f06-96b1-a5592ebe66f3">
+																					<node key="f8b9d48"/>
+																					<index>0</index>
+																				</node>
+																			</property>
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.LambdaExpression" uuid="2a293d14-6923-4742-99a8-ca7764b2ca88">
+																					<property name="value">
+																						<node key="75648bd9" type="org.lgna.project.ast.UserLambda" uuid="22222146-5647-4873-aeb3-e5eb2fa53237">
+																							<property name="accessLevel">
+																								<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+																							</property>
+																							<property name="isSynchronized">
+																								<value type="java.lang.Boolean">false</value>
+																							</property>
+																							<property name="isStrictFloatingPoint">
+																								<value type="java.lang.Boolean">false</value>
+																							</property>
+																							<property name="returnType">
+																								<node key="3c4096e6"/>
+																							</property>
+																							<property name="requiredParameters">
+																								<collection type="java.util.ArrayList">
+																									<node key="4103341a" type="org.lgna.project.ast.UserParameter" uuid="39bd959d-3785-42ce-87bf-b22425beff04">
+																										<property name="name">
+																											<value type="java.lang.String">e</value>
+																										</property>
+																										<property name="valueType">
+																											<node key="241b2648" type="org.lgna.project.ast.JavaType" uuid="b42e0b2b-b9ba-495a-82e0-da6f81b98dbe">
+																												<type name="org.lgna.story.event.SceneActivationEvent"/>
+																											</node>
+																										</property>
+																									</node>
+																								</collection>
+																							</property>
+																							<property name="body">
+																								<node type="org.lgna.project.ast.BlockStatement" uuid="8155515a-6a00-41cc-bece-e5e927e154b6">
+																									<property name="statements">
+																										<collection type="java.util.ArrayList">
+																											<node type="org.lgna.project.ast.ExpressionStatement" uuid="b348db69-88e5-41d7-b05c-73e8abc72dd1">
+																												<property name="expression">
+																													<node type="org.lgna.project.ast.MethodInvocation" uuid="87f75de9-00f4-4ee3-9aeb-e50559019318">
+																														<property name="expression">
+																															<node type="org.lgna.project.ast.ThisExpression" uuid="3d4f9517-88b3-4c2e-8b04-602a51068a54"/>
+																														</property>
+																														<property name="method">
+																															<node key="452b5b0e" type="org.lgna.project.ast.UserMethod" uuid="c50824b5-03cb-4ead-bead-ac56278e8abf">
+																																<property name="isStatic">
+																																	<value type="java.lang.Boolean">false</value>
+																																</property>
+																																<property name="isAbstract">
+																																	<value type="java.lang.Boolean">false</value>
+																																</property>
+																																<property name="isFinal">
+																																	<value type="java.lang.Boolean">false</value>
+																																</property>
+																																<property name="name">
+																																	<value type="java.lang.String">myFirstMethod</value>
+																																</property>
+																																<property name="accessLevel">
+																																	<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+																																</property>
+																																<property name="isSynchronized">
+																																	<value type="java.lang.Boolean">false</value>
+																																</property>
+																																<property name="isStrictFloatingPoint">
+																																	<value type="java.lang.Boolean">false</value>
+																																</property>
+																																<property name="returnType">
+																																	<node key="3c4096e6"/>
+																																</property>
+																																<property name="requiredParameters">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="body">
+																																	<node type="org.lgna.project.ast.BlockStatement" uuid="1e3a39dc-98d6-432e-81bf-50b0411648e9">
+																																		<property name="statements">
+																																			<collection type="java.util.ArrayList"/>
+																																		</property>
+																																		<property name="isEnabled">
+																																			<value type="java.lang.Boolean">true</value>
+																																		</property>
+																																	</node>
+																																</property>
+																																<property name="managementLevel">
+																																	<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+																																</property>
+																																<property name="isSignatureLocked">
+																																	<value type="java.lang.Boolean">false</value>
+																																</property>
+																																<property name="isDeletionAllowed">
+																																	<value type="java.lang.Boolean">true</value>
+																																</property>
+																															</node>
+																														</property>
+																														<property name="requiredArguments">
+																															<collection type="java.util.ArrayList"/>
+																														</property>
+																														<property name="variableArguments">
+																															<collection type="java.util.ArrayList"/>
+																														</property>
+																														<property name="keyedArguments">
+																															<collection type="java.util.ArrayList"/>
+																														</property>
+																													</node>
+																												</property>
+																												<property name="isEnabled">
+																													<value type="java.lang.Boolean">true</value>
+																												</property>
+																											</node>
+																										</collection>
+																									</property>
+																									<property name="isEnabled">
+																										<value type="java.lang.Boolean">true</value>
+																									</property>
+																								</node>
+																							</property>
+																							<property name="managementLevel">
+																								<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+																							</property>
+																							<property name="isSignatureLocked">
+																								<value type="java.lang.Boolean">true</value>
+																							</property>
+																							<property name="isDeletionAllowed">
+																								<value type="java.lang.Boolean">true</value>
+																							</property>
+																						</node>
+																					</property>
+																				</node>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+												</collection>
+											</property>
+											<property name="isEnabled">
+												<value type="java.lang.Boolean">true</value>
+											</property>
+										</node>
+									</property>
+									<property name="managementLevel">
+										<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+									</property>
+									<property name="isSignatureLocked">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isDeletionAllowed">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+								<node key="773f13e5" type="org.lgna.project.ast.UserMethod" uuid="049aa5d9-a670-47ec-8e2e-d8dce9625ba1">
+									<property name="isStatic">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isAbstract">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isFinal">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="name">
+										<value type="java.lang.String">handleActiveChanged</value>
+									</property>
+									<property name="accessLevel">
+										<value type="org.lgna.project.ast.AccessLevel">PROTECTED</value>
+									</property>
+									<property name="isSynchronized">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="isStrictFloatingPoint">
+										<value type="java.lang.Boolean">false</value>
+									</property>
+									<property name="returnType">
+										<node key="3c4096e6"/>
+									</property>
+									<property name="requiredParameters">
+										<collection type="java.util.ArrayList">
+											<node key="4e335c8c" type="org.lgna.project.ast.UserParameter" uuid="1ef56284-01a9-4031-896e-0e5eab347183">
+												<property name="name">
+													<value type="java.lang.String">isActive</value>
+												</property>
+												<property name="valueType">
+													<node key="e011370" type="org.lgna.project.ast.JavaType" uuid="d5f9f534-0e01-453b-89a5-1ab9c88727a7">
+														<type name="java.lang.Boolean"/>
+													</node>
+												</property>
+											</node>
+											<node key="68a3253e" type="org.lgna.project.ast.UserParameter" uuid="751f941e-2b9b-4bc8-82d7-c4862be2d369">
+												<property name="name">
+													<value type="java.lang.String">activationCount</value>
+												</property>
+												<property name="valueType">
+													<node key="2ee23f1d" type="org.lgna.project.ast.JavaType" uuid="4d63b418-00b4-43c7-9d7b-2574ad69fc62">
+														<type name="java.lang.Integer"/>
+													</node>
+												</property>
+											</node>
+										</collection>
+									</property>
+									<property name="body">
+										<node type="org.lgna.project.ast.BlockStatement" uuid="3a7499d2-a9f5-4551-ac8d-7bc33230c393">
+											<property name="statements">
+												<collection type="java.util.ArrayList">
+													<node type="org.lgna.project.ast.ConditionalStatement" uuid="e484cd7b-8d4d-464f-8403-60e903ade27d">
+														<property name="booleanExpressionBodyPairs">
+															<collection type="java.util.ArrayList">
+																<node type="org.lgna.project.ast.BooleanExpressionBodyPair" uuid="b038e5c2-11ff-432f-a210-4199acce5c70">
+																	<property name="expression">
+																		<node type="org.lgna.project.ast.ParameterAccess" uuid="737a2b18-9120-439d-88b7-61edf5661f59">
+																			<property name="parameter">
+																				<node key="4e335c8c"/>
+																			</property>
+																		</node>
+																	</property>
+																	<property name="body">
+																		<node type="org.lgna.project.ast.BlockStatement" uuid="b0b7af90-6f09-4bf3-a839-ad90f5075337">
+																			<property name="statements">
+																				<collection type="java.util.ArrayList">
+																					<node type="org.lgna.project.ast.ConditionalStatement" uuid="7a90da91-86f0-4646-9e8c-0b434147531d">
+																						<property name="booleanExpressionBodyPairs">
+																							<collection type="java.util.ArrayList">
+																								<node type="org.lgna.project.ast.BooleanExpressionBodyPair" uuid="a5ea5246-21dc-4c30-b684-82097b5d2767">
+																									<property name="expression">
+																										<node type="org.lgna.project.ast.RelationalInfixExpression" uuid="c3c78ec4-e45b-4170-badd-40dc4cb7fd82">
+																											<property name="leftOperandType">
+																												<node key="2ee23f1d"/>
+																											</property>
+																											<property name="rightOperandType">
+																												<node key="2ee23f1d"/>
+																											</property>
+																											<property name="leftOperand">
+																												<node type="org.lgna.project.ast.ParameterAccess" uuid="ef7ab318-65a5-4883-b568-19d00a72192a">
+																													<property name="parameter">
+																														<node key="68a3253e"/>
+																													</property>
+																												</node>
+																											</property>
+																											<property name="operator">
+																												<value type="org.lgna.project.ast.RelationalInfixExpression$Operator$5">EQUALS</value>
+																											</property>
+																											<property name="rightOperand">
+																												<node type="org.lgna.project.ast.IntegerLiteral" uuid="6463c969-5622-4205-9cc6-33a3ea5c7249">
+																													<property name="value">
+																														<value type="java.lang.Integer">1</value>
+																													</property>
+																												</node>
+																											</property>
+																										</node>
+																									</property>
+																									<property name="body">
+																										<node type="org.lgna.project.ast.BlockStatement" uuid="414d96e0-e257-40cf-8dca-df4d48c09f21">
+																											<property name="statements">
+																												<collection type="java.util.ArrayList">
+																													<node type="org.lgna.project.ast.ExpressionStatement" uuid="11f0c0a7-7316-4c72-b677-c0b3910b9b65">
+																														<property name="expression">
+																															<node type="org.lgna.project.ast.MethodInvocation" uuid="7f68ed1b-8d88-4ea7-80be-f2d242d34431">
+																																<property name="expression">
+																																	<node type="org.lgna.project.ast.ThisExpression" uuid="1faa47cc-5c58-4a2d-a38c-b000589ffea4"/>
+																																</property>
+																																<property name="method">
+																																	<node key="5f5db8f"/>
+																																</property>
+																																<property name="requiredArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="variableArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="keyedArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																															</node>
+																														</property>
+																														<property name="isEnabled">
+																															<value type="java.lang.Boolean">true</value>
+																														</property>
+																													</node>
+																													<node type="org.lgna.project.ast.ExpressionStatement" uuid="83208970-71a8-4cd7-8b25-8341cd6cb157">
+																														<property name="expression">
+																															<node type="org.lgna.project.ast.MethodInvocation" uuid="dc324c08-bbf9-45da-a5d3-e82cba179717">
+																																<property name="expression">
+																																	<node type="org.lgna.project.ast.ThisExpression" uuid="dd55e463-7231-4b9c-a152-d271f26d71c1"/>
+																																</property>
+																																<property name="method">
+																																	<node key="24029e25"/>
+																																</property>
+																																<property name="requiredArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="variableArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="keyedArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																															</node>
+																														</property>
+																														<property name="isEnabled">
+																															<value type="java.lang.Boolean">true</value>
+																														</property>
+																													</node>
+																													<node type="org.lgna.project.ast.ExpressionStatement" uuid="8eade5cf-0b0d-4bcc-a168-2a9ca48d7e75">
+																														<property name="expression">
+																															<node type="org.lgna.project.ast.MethodInvocation" uuid="ae134cad-099d-4026-9760-cda1261c5d8a">
+																																<property name="expression">
+																																	<node type="org.lgna.project.ast.ThisExpression" uuid="86d2d7b8-63f5-4966-b9b8-ff3802ba63e3"/>
+																																</property>
+																																<property name="method">
+																																	<node key="2509e05b"/>
+																																</property>
+																																<property name="requiredArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="variableArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																																<property name="keyedArguments">
+																																	<collection type="java.util.ArrayList"/>
+																																</property>
+																															</node>
+																														</property>
+																														<property name="isEnabled">
+																															<value type="java.lang.Boolean">true</value>
+																														</property>
+																													</node>
+																												</collection>
+																											</property>
+																											<property name="isEnabled">
+																												<value type="java.lang.Boolean">true</value>
+																											</property>
+																										</node>
+																									</property>
+																								</node>
+																							</collection>
+																						</property>
+																						<property name="elseBody">
+																							<node type="org.lgna.project.ast.BlockStatement" uuid="be7d84d5-b7f2-4989-8a6d-9519979e354c">
+																								<property name="statements">
+																									<collection type="java.util.ArrayList">
+																										<node type="org.lgna.project.ast.ExpressionStatement" uuid="dd8ad6c5-33bc-4afa-9ca3-34156d334174">
+																											<property name="expression">
+																												<node type="org.lgna.project.ast.MethodInvocation" uuid="6c890727-d4de-4a8b-bfdc-c64d1c7b4234">
+																													<property name="expression">
+																														<node type="org.lgna.project.ast.ThisExpression" uuid="7bc237d9-efaa-40da-aa04-903f86881177"/>
+																													</property>
+																													<property name="method">
+																														<node key="7e9df175" type="org.lgna.project.ast.JavaMethod" uuid="20214a99-e4f8-405b-9157-6347df6f8bcf">
+																															<method isVarArgs="false" name="restoreStateAndEventListeners">
+																																<declaringClass name="org.lgna.story.SScene"/>
+																																<parameters/>
+																															</method>
+																														</node>
+																													</property>
+																													<property name="requiredArguments">
+																														<collection type="java.util.ArrayList"/>
+																													</property>
+																													<property name="variableArguments">
+																														<collection type="java.util.ArrayList"/>
+																													</property>
+																													<property name="keyedArguments">
+																														<collection type="java.util.ArrayList"/>
+																													</property>
+																												</node>
+																											</property>
+																											<property name="isEnabled">
+																												<value type="java.lang.Boolean">true</value>
+																											</property>
+																										</node>
+																									</collection>
+																								</property>
+																								<property name="isEnabled">
+																									<value type="java.lang.Boolean">true</value>
+																								</property>
+																							</node>
+																						</property>
+																						<property name="isEnabled">
+																							<value type="java.lang.Boolean">true</value>
+																						</property>
+																					</node>
+																				</collection>
+																			</property>
+																			<property name="isEnabled">
+																				<value type="java.lang.Boolean">true</value>
+																			</property>
+																		</node>
+																	</property>
+																</node>
+															</collection>
+														</property>
+														<property name="elseBody">
+															<node type="org.lgna.project.ast.BlockStatement" uuid="3cd40c7c-9f0c-4c6c-904e-22ccb3dc9ff3">
+																<property name="statements">
+																	<collection type="java.util.ArrayList">
+																		<node type="org.lgna.project.ast.ExpressionStatement" uuid="95272358-07b1-49ea-bffa-90eef91b8ecb">
+																			<property name="expression">
+																				<node type="org.lgna.project.ast.MethodInvocation" uuid="00b3d84f-5eb5-47b2-8231-4d88a44500c6">
+																					<property name="expression">
+																						<node type="org.lgna.project.ast.ThisExpression" uuid="722c9d54-a5c4-4cea-844e-9d841d5b4ef3"/>
+																					</property>
+																					<property name="method">
+																						<node key="42a956ad" type="org.lgna.project.ast.JavaMethod" uuid="d8bef938-03c6-4408-ac95-914502f0cd79">
+																							<method isVarArgs="false" name="preserveStateAndEventListeners">
+																								<declaringClass name="org.lgna.story.SScene"/>
+																								<parameters/>
+																							</method>
+																						</node>
+																					</property>
+																					<property name="requiredArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																					<property name="variableArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																					<property name="keyedArguments">
+																						<collection type="java.util.ArrayList"/>
+																					</property>
+																				</node>
+																			</property>
+																			<property name="isEnabled">
+																				<value type="java.lang.Boolean">true</value>
+																			</property>
+																		</node>
+																	</collection>
+																</property>
+																<property name="isEnabled">
+																	<value type="java.lang.Boolean">true</value>
+																</property>
+															</node>
+														</property>
+														<property name="isEnabled">
+															<value type="java.lang.Boolean">true</value>
+														</property>
+													</node>
+												</collection>
+											</property>
+											<property name="isEnabled">
+												<value type="java.lang.Boolean">true</value>
+											</property>
+										</node>
+									</property>
+									<property name="managementLevel">
+										<value type="org.lgna.project.ast.ManagementLevel">GENERATED</value>
+									</property>
+									<property name="isSignatureLocked">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+									<property name="isDeletionAllowed">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+								<node key="452b5b0e"/>
+							</collection>
+						</property>
+						<property name="fields">
+							<collection type="java.util.ArrayList">
+								<node key="43ea7051"/>
+								<node key="627b987d"/>
+							</collection>
+						</property>
+					</node>
+				</property>
+				<property name="requiredParameters">
+					<collection type="java.util.ArrayList"/>
+				</property>
+				<property name="body">
+					<node type="org.lgna.project.ast.BlockStatement" uuid="ecf31b5b-03fb-4dd1-b3b8-b0d673b27684">
+						<property name="statements">
+							<collection type="java.util.ArrayList">
+								<node type="org.lgna.project.ast.ReturnStatement" uuid="ec94b5d4-a290-45a6-8f7c-1cd2b2a7f1b3">
+									<property name="expressionType">
+										<node key="5cc715e5"/>
+									</property>
+									<property name="expression">
+										<node type="org.lgna.project.ast.FieldAccess" uuid="f00fafbf-f5da-4f30-929d-faec676f4b12">
+											<property name="expression">
+												<node type="org.lgna.project.ast.ThisExpression" uuid="19dac833-05c1-4e05-a3dc-4a5cbf36fb32"/>
+											</property>
+											<property name="field">
+												<node key="4ac1a5fe" type="org.lgna.project.ast.UserField" uuid="939432d8-ee95-423a-b31d-88a1f8fcd254">
+													<property name="name">
+														<value type="java.lang.String">myScene</value>
+													</property>
+													<property name="valueType">
+														<node key="5cc715e5"/>
+													</property>
+													<property name="accessLevel">
+														<value type="org.lgna.project.ast.AccessLevel">PRIVATE</value>
+													</property>
+													<property name="finalVolatileOrNeither">
+														<value type="org.lgna.project.ast.FieldModifierFinalVolatileOrNeither">FINAL</value>
+													</property>
+													<property name="isStatic">
+														<value type="java.lang.Boolean">false</value>
+													</property>
+													<property name="isTransient">
+														<value type="java.lang.Boolean">false</value>
+													</property>
+													<property name="managementLevel">
+														<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+													</property>
+													<property name="isDeletionAllowed">
+														<value type="java.lang.Boolean">true</value>
+													</property>
+													<property name="initializer">
+														<node type="org.lgna.project.ast.InstanceCreation" uuid="a0ba3194-8f92-4a4e-8b5f-5ca06c493669">
+															<property name="constructor">
+																<node key="126e9cf9"/>
+															</property>
+															<property name="requiredArguments">
+																<collection type="java.util.ArrayList"/>
+															</property>
+															<property name="variableArguments">
+																<collection type="java.util.ArrayList"/>
+															</property>
+															<property name="keyedArguments">
+																<collection type="java.util.ArrayList"/>
+															</property>
+														</node>
+													</property>
+												</node>
+											</property>
+										</node>
+									</property>
+									<property name="isEnabled">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+							</collection>
+						</property>
+						<property name="isEnabled">
+							<value type="java.lang.Boolean">true</value>
+						</property>
+					</node>
+				</property>
+				<property name="managementLevel">
+					<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+				</property>
+				<property name="isSignatureLocked">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isDeletionAllowed">
+					<value type="java.lang.Boolean">true</value>
+				</property>
+			</node>
+			<node key="6c12230b" type="org.lgna.project.ast.UserMethod" uuid="6ebd464a-d04d-4570-a8d1-7416f31e7bb5">
+				<property name="isStatic">
+					<value type="java.lang.Boolean">true</value>
+				</property>
+				<property name="isAbstract">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isFinal">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="name">
+					<value type="java.lang.String">main</value>
+				</property>
+				<property name="accessLevel">
+					<value type="org.lgna.project.ast.AccessLevel">PUBLIC</value>
+				</property>
+				<property name="isSynchronized">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="isStrictFloatingPoint">
+					<value type="java.lang.Boolean">false</value>
+				</property>
+				<property name="returnType">
+					<node key="3c4096e6"/>
+				</property>
+				<property name="requiredParameters">
+					<collection type="java.util.ArrayList">
+						<node key="1abade9b" type="org.lgna.project.ast.UserParameter" uuid="fb5743a5-0bda-4f8d-b884-ff1053fc225c">
+							<property name="name">
+								<value type="java.lang.String">args</value>
+							</property>
+							<property name="valueType">
+								<node key="626c9fd2" type="org.lgna.project.ast.JavaType" uuid="bbd8ebcc-8085-4d98-baa8-936b6cdaffb7">
+									<type name="[Ljava.lang.String;"/>
+								</node>
+							</property>
+						</node>
+					</collection>
+				</property>
+				<property name="body">
+					<node type="org.lgna.project.ast.BlockStatement" uuid="e2ae5387-4de7-4ead-a3c7-fee857bae26a">
+						<property name="statements">
+							<collection type="java.util.ArrayList">
+								<node type="org.lgna.project.ast.LocalDeclarationStatement" uuid="1d086929-de28-44ce-9c4f-e83ad3d06540">
+									<property name="local">
+										<node key="7dee7fd3" type="org.lgna.project.ast.UserLocal" uuid="36ca6831-e656-4b65-8dac-17ebb71d0624">
+											<property name="name">
+												<value type="java.lang.String">story</value>
+											</property>
+											<property name="valueType">
+												<node key="2bf88f8f"/>
+											</property>
+											<property name="isFinal">
+												<value type="java.lang.Boolean">true</value>
+											</property>
+										</node>
+									</property>
+									<property name="initializer">
+										<node type="org.lgna.project.ast.InstanceCreation" uuid="4b37b7ac-a77d-4aca-9df0-965631852be6">
+											<property name="constructor">
+												<node key="783600e"/>
+											</property>
+											<property name="requiredArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+											<property name="variableArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+											<property name="keyedArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+										</node>
+									</property>
+									<property name="isEnabled">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+								<node type="org.lgna.project.ast.ExpressionStatement" uuid="5b5c9f04-1fc2-4515-aa86-3e99c8ca89c6">
+									<property name="expression">
+										<node type="org.lgna.project.ast.MethodInvocation" uuid="5ca8db90-6166-4b66-9d96-055579578b6d">
+											<property name="expression">
+												<node type="org.lgna.project.ast.LocalAccess" uuid="ee3929a7-493b-46a7-8fdf-05ced502d235">
+													<property name="local">
+														<node key="7dee7fd3"/>
+													</property>
+												</node>
+											</property>
+											<property name="method">
+												<node key="32e89e0" type="org.lgna.project.ast.JavaMethod" uuid="f76ba333-8f1e-4693-a3e8-707ff8174290">
+													<method isVarArgs="false" name="initializeInFrame">
+														<declaringClass name="org.lgna.story.SProgram"/>
+														<parameters>
+															<type name="[Ljava.lang.String;"/>
+														</parameters>
+													</method>
+												</node>
+											</property>
+											<property name="requiredArguments">
+												<collection type="java.util.ArrayList">
+													<node type="org.lgna.project.ast.SimpleArgument" uuid="e48c39b9-9875-4b4a-9f54-eb24fb37e63a">
+														<property name="parameter">
+															<node key="4bb7b061" type="org.lgna.project.ast.JavaMethodParameter" uuid="1126957d-85e9-4fea-9703-4d3543e516e8">
+																<node key="32e89e0"/>
+																<index>0</index>
+															</node>
+														</property>
+														<property name="expression">
+															<node type="org.lgna.project.ast.ParameterAccess" uuid="0e6ff47a-fc92-4dc6-b53b-3ae8edc6ef5a">
+																<property name="parameter">
+																	<node key="1abade9b"/>
+																</property>
+															</node>
+														</property>
+													</node>
+												</collection>
+											</property>
+											<property name="variableArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+											<property name="keyedArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+										</node>
+									</property>
+									<property name="isEnabled">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+								<node type="org.lgna.project.ast.ExpressionStatement" uuid="d2051daf-b43e-42c7-9930-b15178b713df">
+									<property name="expression">
+										<node type="org.lgna.project.ast.MethodInvocation" uuid="59031220-8fca-493a-8fbc-95fea8be68c1">
+											<property name="expression">
+												<node type="org.lgna.project.ast.LocalAccess" uuid="1b125094-6358-4f1d-b04e-82aaf57a1f25">
+													<property name="local">
+														<node key="7dee7fd3"/>
+													</property>
+												</node>
+											</property>
+											<property name="method">
+												<node key="7144e6d4" type="org.lgna.project.ast.JavaMethod" uuid="75e8a999-c7c2-410b-b0f2-92d1d34ddf53">
+													<method isVarArgs="false" name="setActiveScene">
+														<declaringClass name="org.lgna.story.SProgram"/>
+														<parameters>
+															<type name="org.lgna.story.SScene"/>
+														</parameters>
+													</method>
+												</node>
+											</property>
+											<property name="requiredArguments">
+												<collection type="java.util.ArrayList">
+													<node type="org.lgna.project.ast.SimpleArgument" uuid="c58f35a4-8c08-40f9-94cd-edc0d7da9c30">
+														<property name="parameter">
+															<node key="24785c9" type="org.lgna.project.ast.JavaMethodParameter" uuid="4946cf84-a86b-4423-8702-bb6468a21d42">
+																<node key="7144e6d4"/>
+																<index>0</index>
+															</node>
+														</property>
+														<property name="expression">
+															<node type="org.lgna.project.ast.MethodInvocation" uuid="e3eac7a1-b73b-4e9d-a05a-5e094c88a38d">
+																<property name="expression">
+																	<node type="org.lgna.project.ast.LocalAccess" uuid="b1f6b600-79f1-4abd-80c4-51b0d2eec500">
+																		<property name="local">
+																			<node key="7dee7fd3"/>
+																		</property>
+																	</node>
+																</property>
+																<property name="method">
+																	<node key="64b4a6dc"/>
+																</property>
+																<property name="requiredArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="variableArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+																<property name="keyedArguments">
+																	<collection type="java.util.ArrayList"/>
+																</property>
+															</node>
+														</property>
+													</node>
+												</collection>
+											</property>
+											<property name="variableArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+											<property name="keyedArguments">
+												<collection type="java.util.ArrayList"/>
+											</property>
+										</node>
+									</property>
+									<property name="isEnabled">
+										<value type="java.lang.Boolean">true</value>
+									</property>
+								</node>
+							</collection>
+						</property>
+						<property name="isEnabled">
+							<value type="java.lang.Boolean">true</value>
+						</property>
+					</node>
+				</property>
+				<property name="managementLevel">
+					<value type="org.lgna.project.ast.ManagementLevel">NONE</value>
+				</property>
+				<property name="isSignatureLocked">
+					<value type="java.lang.Boolean">true</value>
+				</property>
+				<property name="isDeletionAllowed">
+					<value type="java.lang.Boolean">true</value>
+				</property>
+			</node>
+		</collection>
+	</property>
+	<property name="fields">
+		<collection type="java.util.ArrayList">
+			<node key="4ac1a5fe"/>
+		</collection>
+	</property>
+</node>
